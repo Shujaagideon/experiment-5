@@ -185,8 +185,8 @@ export default class Template {
 
         this.filmPass = new FilmPass(
             0.5,   // noise intensity
-            0.,  // scanline intensity
-            648,    // scanline count
+            0.2,  // scanline intensity
+            800,    // scanline count
             false,  // grayscale
         );
         this.filmPass.renderToScreen = true;

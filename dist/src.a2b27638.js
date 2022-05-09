@@ -48109,8 +48109,8 @@ class Template {
     256);
     this.bloomPass2 = new _UnrealBloomPass.UnrealBloomPass(new THREE.Vector2(this.width, this.height), 25, 0.8, 5.85);
     this.filmPass = new _FilmPass.FilmPass(0.5, // noise intensity
-    0., // scanline intensity
-    648, // scanline count
+    0.2, // scanline intensity
+    800, // scanline count
     false);
     this.filmPass.renderToScreen = true;
     this.renderPass = new _RenderPass.RenderPass(this.scene, this.camera);
@@ -48166,7 +48166,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52445" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51774" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

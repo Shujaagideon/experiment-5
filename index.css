@@ -10,7 +10,7 @@ body{
     font-family: 'Patrick Hand', cursive;
     overflow: hidden;
 }
-/* body::before {
+body::before {
 	animation: grain 8s steps(10) infinite;
 	background-image: url(./src/assets/noise2.png);
 	content: '';
@@ -22,7 +22,7 @@ body{
 	top: -100%;
 	width: 300%;
     pointer-events: none;
-} */
+}
 
 @keyframes grain {
     0%, 100% { transform:translate(0, 0); }
