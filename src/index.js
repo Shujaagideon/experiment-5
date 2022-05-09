@@ -176,7 +176,7 @@ export default class Template {
             maxblur: 0.01
         };
         this.bloomPass = new BloomPass(
-            0.6,    // strength
+            0.4,    // strength
             25,   // kernel size
             4,    // sigma ?
             256,  // blur render target resolution

@@ -48103,7 +48103,7 @@ class Template {
       aperture: 2.7,
       maxblur: 0.01
     };
-    this.bloomPass = new _BloomPass.BloomPass(0.6, // strength
+    this.bloomPass = new _BloomPass.BloomPass(0.4, // strength
     25, // kernel size
     4, // sigma ?
     256);
