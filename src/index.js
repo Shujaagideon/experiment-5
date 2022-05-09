@@ -184,8 +184,8 @@ export default class Template {
         this.bloomPass2 = new UnrealBloomPass( new THREE.Vector2( this.width, this.height ), 25, 0.8, 5.85 );
 
         this.filmPass = new FilmPass(
-            0.35,   // noise intensity
-            0.025,  // scanline intensity
+            0.5,   // noise intensity
+            0.,  // scanline intensity
             648,    // scanline count
             false,  // grayscale
         );

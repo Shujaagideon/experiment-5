@@ -48108,8 +48108,8 @@ class Template {
     4, // sigma ?
     256);
     this.bloomPass2 = new _UnrealBloomPass.UnrealBloomPass(new THREE.Vector2(this.width, this.height), 25, 0.8, 5.85);
-    this.filmPass = new _FilmPass.FilmPass(0.35, // noise intensity
-    0.025, // scanline intensity
+    this.filmPass = new _FilmPass.FilmPass(0.5, // noise intensity
+    0., // scanline intensity
     648, // scanline count
     false);
     this.filmPass.renderToScreen = true;
